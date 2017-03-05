@@ -1,9 +1,6 @@
 var SP = require('../Pages/SuperCalculator.js');
 SP = new SP();
 
-var SP1 = require('../Pages/SuperCalculator.js');
-SP1 = new SP1();
-
 describe('Calculator', function() {
 
 	it('DIVISION', function() {
@@ -12,6 +9,7 @@ describe('Calculator', function() {
 		SP.setsecondFieldText(3)
 		SP.clickGo
 		browser.sleep(5555)
+		
 
 	})
 	it('ADDITION', function() {

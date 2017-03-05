@@ -2,14 +2,16 @@ var jsonObject = require('../Resources/config.json');
 
 var firstFieldText = by.model('first')
 
-//Default Constructor
+// Default Constructor
 var SuperCalculator = function() {
 	browser.get(jsonObject.base_url)
+	browser.manage().logs()
 	browser.getTitle().then(function(text) {
 		console.log("*****************" + text + "*****************")
 		expect("Super Calculator").toBe(text)
 	})
 };
+
 SuperCalculator.prototype = Object.create({}, {
 
 	secondFieldText : {
