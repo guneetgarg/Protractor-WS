@@ -2,6 +2,7 @@ var jsonObject = require('../Resources/config.json');
 
 var firstFieldText = by.model('first')
 
+//Default Constructor
 var SuperCalculator = function() {
 	browser.get(jsonObject.base_url)
 	browser.getTitle().then(function(text) {
