@@ -14,5 +14,5 @@ var ActionWrapper = function() {
 		this.goButton.click();
 		browser.sleep(7777)
 	};
-});
+};
 module.exports = new ActionWrapper();
