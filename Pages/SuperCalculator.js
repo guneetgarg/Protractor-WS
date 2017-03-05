@@ -1,7 +1,7 @@
 var jsonObject = require('../Resources/config.json');
-//var AW = require('../Utilities/ActionWrapper.js');
 
 var firstFieldText = by.model('first')
+
 var SuperCalculator = function() {
 	browser.get(jsonObject.base_url)
 	browser.getTitle().then(function(text) {
