@@ -20,7 +20,7 @@ exports.config = {
 
 	// Spec patterns are relative to the current working directory when
 	// protractor is called.
-	specs : [ './TestScript/SuperCalculator_spec.js' ],
+	specs : [ './TestScript/Super_spec.js' ],
 
 	// Options to be passed to Jasmine.
 	jasmineNodeOpts : {
