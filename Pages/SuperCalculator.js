@@ -5,7 +5,7 @@ var firstFieldText = by.model('first')
 var SuperCalculator = function() {
 	browser.get(jsonObject.base_url)
 	browser.getTitle().then(function(text) {
-		console.log(text)
+		console.log("*****************" + text + "*****************")
 		expect("Super Calculator").toBe(text)
 	})
 };
