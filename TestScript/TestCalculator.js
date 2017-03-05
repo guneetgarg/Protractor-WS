@@ -1,5 +1,3 @@
-'use strict';
-
 var SP = require('../Pages/SuperCalculator.js');
 SP = new SP();
 
