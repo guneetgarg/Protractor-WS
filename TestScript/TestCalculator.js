@@ -13,9 +13,9 @@ describe('Calculator', function() {
 		browser.sleep(5555)
 
 	})
-	it('DIVISION', function() {
+	it('ADDITION', function() {
 		SP.setfirstFieldText(12);
-		SP.changeOperator("DIVISION")
+		SP.changeOperator("ADDITION")
 		SP.setsecondFieldText(3)
 		SP.clickGo
 		browser.sleep(5555)
