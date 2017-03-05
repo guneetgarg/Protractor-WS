@@ -1,0 +1,7 @@
+{
+	"base_url": "http://juliemr.github.io/protractor-demo/",
+	"locators": {
+		"firstField": "first",
+		"secondField": "second"
+	}
+}
