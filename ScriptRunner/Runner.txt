@@ -1,1 +1,6 @@
 protractor conf.js
+
+protractor protractor.conf.js --suite homepage
+Additionally, you can run specific suites of tests with the command:
+
+protractor protractor.conf.js --suite homepage,search
