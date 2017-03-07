@@ -15,6 +15,7 @@
     }
   },
   "libs": [
+    "ecma5",
     "browser"
   ]
 }
